@@ -1,0 +1,148 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>13.0.1</Version>
+<Cluster>
+<Name>Acquisition and Logging Configuration</Name>
+<NumElts>11</NumElts>
+<I32>
+<Name>Samples per Read</Name>
+<Val>1280</Val>
+</I32>
+<I32>
+<Name>Number of Reads to Save</Name>
+<Val>20</Val>
+</I32>
+<I32>
+<Name>Number of Channels</Name>
+<Val>4</Val>
+</I32>
+<Array>
+<Name>Channel Scale Array</Name>
+<Dimsize>4</Dimsize>
+<FXP>
+<Name>Scale</Name>
+<WordLength>24</WordLength>
+<IntegerLength>12</IntegerLength>
+<Sign>Unsigned</Sign>
+<Val>0x0000000000001000</Val>
+<Minimum>0x0000000000000000</Minimum>
+<Maximum>0x0000000000ffffff</Maximum>
+<Delta>
+<WordLength>24</WordLength>
+<IntegerLength>12</IntegerLength>
+<Val>0x0000000000ffffff</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>Scale</Name>
+<WordLength>24</WordLength>
+<IntegerLength>12</IntegerLength>
+<Sign>Unsigned</Sign>
+<Val>0x0000000000001000</Val>
+<Minimum>0x0000000000000000</Minimum>
+<Maximum>0x0000000000ffffff</Maximum>
+<Delta>
+<WordLength>24</WordLength>
+<IntegerLength>12</IntegerLength>
+<Val>0x0000000000ffffff</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>Scale</Name>
+<WordLength>24</WordLength>
+<IntegerLength>12</IntegerLength>
+<Sign>Unsigned</Sign>
+<Val>0x0000000000001000</Val>
+<Minimum>0x0000000000000000</Minimum>
+<Maximum>0x0000000000ffffff</Maximum>
+<Delta>
+<WordLength>24</WordLength>
+<IntegerLength>12</IntegerLength>
+<Val>0x0000000000ffffff</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>Scale</Name>
+<WordLength>24</WordLength>
+<IntegerLength>12</IntegerLength>
+<Sign>Unsigned</Sign>
+<Val>0x0000000000001000</Val>
+<Minimum>0x0000000000000000</Minimum>
+<Maximum>0x0000000000ffffff</Maximum>
+<Delta>
+<WordLength>24</WordLength>
+<IntegerLength>12</IntegerLength>
+<Val>0x0000000000ffffff</Val>
+</Delta>
+</FXP>
+</Array>
+<Array>
+<Name>Channel Names</Name>
+<Dimsize>4</Dimsize>
+<String>
+<Name>String</Name>
+<Val>Mod1\AI0</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>Mod1\AI1</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>Mod1\AI2</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>Mod1\AI3</Val>
+</String>
+</Array>
+<DBL>
+<Name>Trigger - RMS Value</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<I32>
+<Name>Trigger - Channel</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Trigger - Time (Minute)</Name>
+<Val>5</Val>
+</I32>
+<Array>
+<Name>TDMS Properties</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>TDMS Properties</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Company</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>TongRui</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>TDMS Properties</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Developer</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>SUN</Val>
+</String>
+</Cluster>
+</Array>
+<String>
+<Name>Data File Name</Name>
+<Val>cRIO_Data</Val>
+</String>
+<U16>
+<Name>Data Rate</Name>
+<Val>20</Val>
+</U16>
+</Cluster>
+</LVData>
