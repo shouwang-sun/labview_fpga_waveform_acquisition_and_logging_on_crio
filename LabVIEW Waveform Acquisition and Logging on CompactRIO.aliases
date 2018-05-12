@@ -1,0 +1,21 @@
+[My Computer]
+My Computer = "192.168.1.104"
+
+[NI-cRIO-9036-FCXF]
+NI-cRIO-9036-FCXF = "192.168.17.102"
+
+[NI-cRIO-9036-NLHQ]
+NI-cRIO-9036-NLHQ = "192.168.18.132"
+
+[NI-cRIO9074]
+NI-cRIO9074 = "169.254.4.42"
+
+[RT CompactRIO Target]
+RT CompactRIO Target = "169.254.4.43"
+
+[RT Industrial Controller (NI 3100/3110) Target]
+RT Industrial Controller (NI 3100/3110) Target = "169.254.104.129"
+
+[我的电脑]
+我的电脑 = "192.168.1.103"
+
